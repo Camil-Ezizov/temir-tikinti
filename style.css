@@ -1,0 +1,359 @@
+body{margin: 0;padding: 0;background-color: white;}
+
+.ustmenu {
+	font-size: 16px;
+	font-family: tahoma;
+}
+.menudovr{
+	border-radius: 20px;
+	border: 1px solid;
+}
+.search-icon{
+	margin-left: -60px;
+}
+.buttonpar{
+	height: 65px;
+background-color: orange;
+border-radius: 0;
+}
+.buttonpar:hover{
+background-color:white;
+border-color:orange;
+}
+.buttonpar h5:hover{
+	color:orange;
+}
+.buttonpar:active{
+	background-color: #1E90FF;
+	border-color: #1E90FF;
+}
+.buttonpar h5:active{
+	color:white;
+}
+.sekilyarisi{
+  position: relative;
+}
+.sekilyarisi .sekilhisse{
+      padding-left: 30px;
+      opacity: .6;
+      height: 759px;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+}
+.sekilhisse div{
+  padding-top: 200px;
+}
+.readmor{
+	width:180px;
+	height: 60px;
+	border-radius: 0;
+}
+.readmor{
+	background-color:#1E90FF;
+	color: white; 
+}
+.readmor:active{
+background-color:#A9A9A9;
+color:white;
+}
+.servis{
+	height: 320px;
+	padding-top: 120px;
+}
+.servisgroup{
+
+}
+.icon{
+	font-size: 80px;
+}
+.fixedhisse{
+  padding: 8em 0;
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+  color: rgba(255, 255, 255, 0.8); }
+
+    .fixedhisse h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800; }
+  .fixedhisse .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .8;
+    background: #1683fb; }
+    .btn{
+    	border-radius: 0px;
+    }
+  .btn2:hover{
+  	border-color:orange;
+  	color: orange;
+   opacity: .6;
+    background: #1683fb; 
+  }
+.team{
+  margin-top: 120px;
+}
+.general{
+  position: relative;
+}
+.card{
+  border:0px;
+  margin-top: 60px;
+}
+.socialgeneral1{
+display: none;
+height: 60px;
+background-color: orange;
+position: absolute;
+bottom: 95px;
+width: 100%;
+}
+.socialgeneral2{
+display: none;
+height: 60px;
+background-color: orange;
+position: absolute;
+bottom: 95px;
+width: 100%;
+}
+.socialgeneral3{
+display: none;
+height: 60px;
+background-color: orange;
+position: absolute;
+bottom: 95px;
+width: 100%;
+}
+.socialgeneral4{
+display: none;
+height: 60px;
+background-color: orange;
+position: absolute;
+bottom: 95px;
+width: 100%;
+}
+.social{
+list-style: none;
+margin-left: 35px;
+}
+.social li a i{
+  color: black;
+}
+.teamimg{
+  height: 300px;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.names1 h6{
+  color: orange;
+}
+.names2 h6{
+  color: orange;
+}
+.names3 h6{
+  color: orange;
+}
+.names4 h6{
+  color: orange;
+}
+
+.imgpap{
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+
+}
+.imgoverlay{
+  position: absolute;
+  top: 0px;
+  bottom:  0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+   opacity: 0;    
+
+}
+.imgpap:hover  .imgoverlay{
+  opacity :  .7;
+  background-color:#ffa500;
+  display: inline;
+}
+.imageText{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+
+.simvol{
+  font-size: 100px;
+  margin: 0px;
+  padding: 0px;
+  color: orange;
+}
+.gradian{
+ background: linear gradient(#F5F5F5,white) !important;
+  background: -webkit-linear-gradient(#F5F5F5,white) !important;
+  background: -moz-linear-gradient(#F5F5F5,white) !important;
+  background: -o-linear-gradient(#F5F5F5,white) !important;
+}
+
+.cardlar img{
+  position: relative;
+  height: 280px;
+  cursor: pointer;
+}
+.card-header{
+  border:0;
+  background-color: white;
+}
+.card-header h5:hover{
+color: orange;
+cursor: pointer;
+}
+.card-body p{
+  color: gray;
+  font-size: 17px;
+}
+.card-footer{
+  border:0px;
+  background-color: white;
+}
+.card-footer a:hover{
+background-color: white;
+border-radius: orange;
+color: orange ;
+}
+.mesajj{
+  color: orange;
+}
+.mesaj{
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+.cardtarix{
+  position: absolute;
+  top: 0px;
+  cursor: pointer;
+}
+.footer{
+  background-color: rgb(0, 0, 0);
+  margin-top: 140px;
+  height: 650px;
+  padding-top: 70px;
+  color: white;
+}
+.metnn{
+  font-size: 18px;
+  color: rgb(180, 180, 180);
+}
+.spans{
+cursor: pointer;
+  width: 45px !important;
+  height: 45px;
+  margin-right: 12px;
+  padding-top: 10px;
+  background-color: rgb(60, 60, 60);
+}
+.spans i{
+  font-size: 18px;
+}
+.altservis a{
+display:flex;
+text-decoration: none;
+color: rgb(180, 180, 180);
+}
+.altservis a:hover{
+  color: white;
+}
+.altservis a i{
+  padding-top: 8px;
+font-size: 12px;
+}
+.altmedia{
+  padding-top: 50px;
+}
+.altmedia img{
+  width: 80px;
+  height:80px;
+}
+.altmediabody p a{
+text-decoration: none;
+color: rgb(180, 180, 180);
+font-size: 17px;
+}
+.altmediabody p a:hover{
+  color: orange;
+}
+.tarix span{
+  font-size: 12px;
+color: rgb(180, 180, 180);
+}
+.altmail{
+  padding-top:50px;
+}
+.altmail input {
+  height: 45px;
+  width: 180px;
+  background-color: rgb(60, 60, 60);
+  border:0;
+  border-radius: 2px;
+  color: rgb(180, 180, 180);
+  text-align: center;
+}
+.altmail button{
+  margin-top: 5px;
+  height: 45px;
+  width: 180px;
+  border:0;
+  color: white;
+  background-color: orange;
+  border-radius: 2px;
+  text-align: center;
+}
+.altmail button:hover{
+color: white;
+background-color: orange;
+}
+.altfooter{
+  text-align: center;
+  padding-top: 120px;
+  color: rgb(180, 180, 180);
+}
+.btn:focus,button:focus{
+  box-shadow: none !important;
+}
+input:focus{
+  outline: none!important;
+}
+@media screen and (max-width: 991px){
+.sekilyarisi .sekilhisse{
+      padding-left: 30px;
+      opacity: .6;
+      height: 600px !important;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+}
+.sekilhisse div{
+  padding-top: 220px;
+}
+.header{
+  font-size: 26px;
+}
+}
